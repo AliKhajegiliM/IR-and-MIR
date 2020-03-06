@@ -17,4 +17,4 @@ The Information &amp; Mutual Information Ratio: To Count Image Local Features an
 \
 \>> the lower bound of MIR and IR: MATLAB function
 \
-\3-Oxford’s Affine Covariant Regions Dataset
+3-Oxford’s Affine Covariant Regions Dataset
