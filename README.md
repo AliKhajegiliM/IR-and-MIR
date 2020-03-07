@@ -5,7 +5,7 @@ The Information &amp; Mutual Information Ratio: To Count Image Local Features an
 \
 2-The functions of the devised method and our simulations are as follows 
 \
-\>> image joint histogram or 2D histogram: MATLAB function
+\>> image joint histogram or 2D histogram; MATLAB function: imhist2D.m
 \
 \>> IR: image local feature points count: MATLAB function 
 \
