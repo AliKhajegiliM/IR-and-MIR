@@ -13,7 +13,7 @@ The Information &amp; Mutual Information Ratio: To Count Image Local Features an
 \
 \>> contiguous intensity histogram merging, varying feature distance: MATLAB function
 \
-\>> image entropy and image mutual information: MATLAB function
+\>> image entropy and image mutual information; MATLAB function: ShEntropy.m & mutualInf.m
 \
 \>> the lower bound of MIR and IR: MATLAB function
 \
