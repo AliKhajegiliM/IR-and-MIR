@@ -1,5 +1,5 @@
 # IR-and-MIR
-The Information &amp; Mutual Information Ratio: To Count Image Local Features and Their Matches
+The Information &amp; Mutual Information Ratio for Counting Image Local Features and Their Matches
 \
 1-The mathematical proofs of article theoremes, corollaries, and lemmas
 \
