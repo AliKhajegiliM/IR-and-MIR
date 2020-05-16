@@ -16,7 +16,9 @@ The Information &amp; Mutual Information Ratio for Counting Image Local Features
 \
 \>> MIR: match local feature points count over two given frames: MATLAB function
 \
-\>> contiguous intensity histogram merging, varying feature distance: MATLAB function
+\>> contiguous intensity merging for 1D histogram; MATLAB function: bincom.m
+\
+\>> contiguous intensity merging for 2D histogram; MATLAB function: bincom2D.m
 \
 \>> image entropy and image mutual information; MATLAB function: ShEntropy.m & mutualInf.m
 \
