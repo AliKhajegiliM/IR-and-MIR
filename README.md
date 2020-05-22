@@ -1,15 +1,16 @@
 # IR and MIR: (To be Updated and Completed:)
 The Information &amp; Mutual Information Ratio for Counting Image Local Features and Their Matches
 \
-\
 8-th Iran Workshop on Communication and Information Theory(May 2020), Sharif University of Technology, Iran.
 \
 \
 The webpage link for downloading arxiv version: https://arxiv.org/abs/2005.06739.
 \
+\
 The IEEE Xplore webpage:(To be announced!)
 \
-#The functions of the devised method and our simulations are as follows 
+\
+#The devised methods functions and our simulations are prepared as follows:
 \
 \>> image joint histogram or 2D histogram; MATLAB function: imhist2D.m
 \
