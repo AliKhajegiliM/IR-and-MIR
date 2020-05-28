@@ -37,4 +37,4 @@ The IEEE Xplore webpage:(To be announced!)
 \>> image entropy and image mutual information; MATLAB function: ShEntropy.m & mutualInf.m
 \
 \
-\>>coming soon!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+\>>The IR-based Optimization method: MATLAB function: Koptimizer.m
