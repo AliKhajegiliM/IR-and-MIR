@@ -1,4 +1,4 @@
-# IR and MIR: (To be Updated and Completed:)
+# IR and MIR:
 The Information &amp; Mutual Information Ratio for Counting Image Local Features and Their Matches
 \
 8-th Iran Workshop on Communication and Information Theory(May 2020), Sharif University of Technology, Iran.
