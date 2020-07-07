@@ -1,10 +1,10 @@
 # IR and MIR:
 The Information &amp; Mutual Information Ratio for Counting Image Local Features and Their Matches
 \
-8-th Iran Workshop on Communication and Information Theory(May 2020), Sharif University of Technology, Iran.
+Presented at the 8-th Iran Workshop on Communication and Information Theory(May 2020), Sharif University of Technology, Iran.
 \
 \
-The webpage link for downloading arxiv version: https://arxiv.org/abs/2005.06739.
+Arxiv version: https://arxiv.org/abs/2005.06739.
 \
 \
 The IEEE Xplore webpage:(To be announced!)
