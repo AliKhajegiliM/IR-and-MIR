@@ -45,4 +45,5 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
     
 ## The Interesting Part! :upside_down_face:
    The IR-based Optimization method: Koptimizer.m
-   (*To be Completed*)
+   \
+    The number of extracted feature points from an image can be can boosted (How?, I invite you to read the paper). The function **Koptimizer** gets an image and a feature           distance( usually a number ranges within 6 to 9, **d=8** is prefered). Thus, let image **X** and call **K_o=Koptimizer(X,d)**, and then you will have a coeficient **K_o**       which should be multiplied by the image (**X**). That is **Y=K_o * X**.
