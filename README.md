@@ -18,12 +18,15 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
 \
 \
 \>> image joint histogram or 2D histogram; MATLAB function: imhist2D.m
+    The joint histogram of two given images can be easily computed through **h_ij=imhist2D(X1,X2)**, where X1 is the first frame and X2 is the second frame.
 \
 \
 \>> IR: image local feature points count; MATLAB function: ir.m
+    To estimate the number of exsiting feature points (*count*) in a given image, it is enough to call **count=ir(h_i)**, where *h_i* is the image histogram.
 \
 \
 \>> MIR: match local feature points count over two given frames; MATLAB function: mir.m
+    To estimate the number of exsiting **joint** feature points (*jcount*) in two given frames, it is enough to call **jcount=mir(h_ij,h_i,h_j)**, where *h_i*, *h_j*, and *h_ij*     are the 1st frame, 2nd frame, and joint(2D) histograms, respectively.
 \
 \
 \>> the lower bound on IR (LIR); MATLAB function: lir.m
