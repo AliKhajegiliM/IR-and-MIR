@@ -19,11 +19,11 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
     
 - IR: the estimated count of image feature points, ir.m:
     \
-    To estimate the number of exsiting feature points (*count*) in a given image, it is enough to call **count=ir(h_i)**, where *h_i* is the image histogram.
+    To estimate the number of existing feature points (*count*) in a given image, it is enough to call **count=ir(h_i)**, where *h_i* is the image histogram.
     
 - MIR: the estimated count of joint feature points of two frames, mir.m:
     \
-    To estimate the number of exsiting **joint** feature points (*jcount*) in two given frames, it is enough to call **jcount=mir(h_ij,h_i,h_j)**, where *h_i*, *h_j*, and *h_ij*     are the 1st frame, 2nd frame, and joint(2D) histograms, respectively.
+    To estimate the number of existing **joint** feature points (*jcount*) in two given frames, it is enough to call **jcount=mir(h_ij,h_i,h_j)**, where *h_i*, *h_j*, and *h_ij*     are the 1st frame, 2nd frame, and joint(2D) histograms, respectively.
 
 - The lower bound on IR (LIR); MATLAB function, lir.m:
     \
@@ -35,7 +35,7 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
 
 - Contiguous intensity merging for 1D histogram, bincom.m:
     \
-    In a simple sentence, this is a thresholding function. The thresholded histogram(*out_hist*) can be computed through **out_hist=bincom(h_i,d)**, where *h_i* is the             histogram of a given image and *d* is the *feature distance* or threshould level.
+    In a simple sentence, this is a thresholding function. The thresholded histogram(*out_hist*) can be computed through **out_hist=bincom(h_i,d)**, where *h_i* is the             histogram of a given image and *d* is the *feature distance* or threshold level.
 
 - Contiguous intensity merging for 2D histogram, bincom2D.m:
     \
@@ -46,9 +46,9 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
 ## The Interesting Part! :upside_down_face:
    The IR-based Optimization method, Koptimizer.m
    \
-    The number of extracted feature points from an image can be boosted (How? I invite you to read the paper). The function **Koptimizer** gets an image and a feature               distance( usually a number ranges within 6 to 9, **d=8** is prefered). Thus, let image **X** and call **K_o=Koptimizer(X,d)**, and then you will have a coeficient **K_o**       which should be multiplied by the image (**X**): **Y=K_o * X**.
+    The number of extracted feature points from an image can be boosted (How? I invite you to read the paper). The function **Koptimizer** gets an image and a feature               distance( usually a number ranges within 6 to 9, **d=8** is preferred). Thus, let image **X** and call **K_o=Koptimizer(X,d)**, and then you will have a coefficient **K_o**       which should be multiplied by the image (**X**): **Y=K_o * X**.
     \
-    Now, you have an image that guarantees feature extraction algorithms can extract more features when using it than when use the original image. The improvement rate is           roughly 20% to 35% on average.
+    Now, you have an image that guarantees feature extraction algorithms can extract more features when using it than when using the original image. The improvement rate is           roughly 20% to 35% on average.
     The paper mainly discusses handcrafted feature points, but you can use this optimizing method for ML or DL algorithms as well (Why? because **features** are **features** :))
     \
     Good Luck!
