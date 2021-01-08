@@ -29,7 +29,7 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
     \
     This is a **lower bound** on the IR estimator(feature) and depends on image entropy and size. (Apply the same instruction as the *ir* function.)
 
-- The lower bound on MIR (LMIR); MATLAB function, lmir.m:
+- The lower bound on MIR (LMIR), lmir.m:
     \
     This is a **lower bound** on the MIR estimator(feature) and depends on image mutual information and size. (Apply the same instruction as the *mir* function.)
 
