@@ -19,28 +19,25 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
 - Image joint histogram or 2D histogram, imhist2D.m:
     \
     The joint histogram of two given images can be easily computed through **h_ij=imhist2D(X1,X2)**, where X1 is the first frame and X2 is the second frame.
-\
+    
 - Item 2 IR: image local feature points count, ir.m:
     \
     To estimate the number of exsiting feature points (*count*) in a given image, it is enough to call **count=ir(h_i)**, where *h_i* is the image histogram.
-\
+    
 - MIR: match local feature points count over two given frames, mir.m:
     \
     To estimate the number of exsiting **joint** feature points (*jcount*) in two given frames, it is enough to call **jcount=mir(h_ij,h_i,h_j)**, where *h_i*, *h_j*, and *h_ij*     are the 1st frame, 2nd frame, and joint(2D) histograms, respectively.
-\
-\
-\>> the lower bound on IR (LIR); MATLAB function: lir.m
-\
+
+- The lower bound on IR (LIR); MATLAB function, lir.m:
+    \
     This is a **lower bound** on the IR estimator(feature) and depends on image entropy and size. (Apply the same instruction as the *ir* function.)
-\
-\
-\>> the lower bound on MIR (LMIR); MATLAB function: lmir.m
-\
+
+- The lower bound on MIR (LMIR); MATLAB function, lmir.m:
+    \
     This is a **lower bound** on the MIR estimator(feature) and depends on image mutual information and size. (Apply the same instruction as the *mir* function.)
-\
-\
-\>> contiguous intensity merging for 1D histogram: bincom.m
-\
+
+- Contiguous intensity merging for 1D histogram: bincom.m
+    \
     In a simple sentence, this is a thresholding function. The thresholded histogram(*out_hist*) can be computed through **out_hist=bincom(h_i,d)**, where *h_i* is the             histogram of a given image and *d* is the *feature distance* or threshould level.
 \
 \
