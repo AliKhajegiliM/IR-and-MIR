@@ -18,7 +18,7 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
 #<h3>Details:
 \
 \
-\>> image joint histogram or 2D histogram: imhist2D.m
+\>><h6> image joint histogram or 2D histogram: imhist2D.m
     \
     The joint histogram of two given images can be easily computed through **h_ij=imhist2D(X1,X2)**, where X1 is the first frame and X2 is the second frame.
 \
