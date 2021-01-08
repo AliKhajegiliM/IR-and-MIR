@@ -16,11 +16,11 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
 \
 \
 ### Details:
-- Image joint histogram or 2D histogram, imhist2D.m:
+#### - Image joint histogram or 2D histogram, imhist2D.m:
     \
     The joint histogram of two given images can be easily computed through **h_ij=imhist2D(X1,X2)**, where X1 is the first frame and X2 is the second frame.
     
-- Item 2 IR: image local feature points count, ir.m:
+##### - Item 2 IR: image local feature points count, ir.m:
     \
     To estimate the number of exsiting feature points (*count*) in a given image, it is enough to call **count=ir(h_i)**, where *h_i* is the image histogram.
     
