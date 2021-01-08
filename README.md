@@ -15,7 +15,7 @@ The IEEE Xplore webpage: https://ieeexplore.ieee.org/document/9163458
 A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Counting Image Features and Their Matches," 2020 Iran Workshop on Communication and Information Theory (IWCIT), Tehran, Iran, 2020, pp. 1-6, doi: 10.1109/IWCIT50667.2020.9163458.
 \
 \
-#Details:
+#<h3>Details:
 \
 \
 \>> image joint histogram or 2D histogram: imhist2D.m
