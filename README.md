@@ -10,7 +10,6 @@ Arxiv version: https://arxiv.org/abs/2005.06739.
 The IEEE Xplore webpage: https://ieeexplore.ieee.org/document/9163458
 
 ## Citation Info:
-\
 A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Counting Image Features and Their Matches," 2020 Iran Workshop on Communication and Information Theory (IWCIT), Tehran, Iran, 2020, pp. 1-6, doi: 10.1109/IWCIT50667.2020.9163458.
 
 ## Details:
@@ -44,5 +43,5 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
 - Image entropy and image mutual information: ShEntropy.m & mutualInf.m
 
     
-## The Interesting Part!:**:upside_down_face:
+## The Interesting Part!: :upside_down_face:
     The IR-based Optimization method: Koptimizer.m
