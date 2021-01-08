@@ -33,14 +33,14 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
     \
     This is a **lower bound** on the MIR estimator(feature) and depends on image mutual information and size. (Apply the same instruction as the *mir* function.)
 
-- Contiguous intensity merging for 1D histogram: bincom.m
+- Contiguous intensity merging for 1D histogram, bincom.m:
     \
     In a simple sentence, this is a thresholding function. The thresholded histogram(*out_hist*) can be computed through **out_hist=bincom(h_i,d)**, where *h_i* is the             histogram of a given image and *d* is the *feature distance* or threshould level.
 
-- Contiguous intensity merging for 2D histogram: bincom2D.m
+- Contiguous intensity merging for 2D histogram, bincom2D.m:
     \
     This function is the 2D version of *bincom.m*. It gets the 2D histogram (*h_ij*) and feature distance(*d*) as its inputs and returns the thresholded 2D histogram(*out_2Dhist*) through **out_2Dhist=bincom2D(h_ij,d)**.
-- Image entropy and image mutual information: ShEntropy.m & mutualInf.m
+- Image entropy and image mutual information, ShEntropy.m & mutualInf.m
 
     
 ## The Interesting Part! :upside_down_face:
