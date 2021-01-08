@@ -48,7 +48,7 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
    \
     The number of extracted feature points from an image can be boosted (How? I invite you to read the paper). The function **Koptimizer** gets an image and a feature               distance( usually a number ranges within 6 to 9, **d=8** is prefered). Thus, let image **X** and call **K_o=Koptimizer(X,d)**, and then you will have a coeficient **K_o**       which should be multiplied by the image (**X**): **Y=K_o * X**.
     \
-    Now, you have an image that gaurantees feature extraction algorithms can extract more features when using it than when use the original image. The improvement rate is           roughly 20% to 35% on average.
+    Now, you have an image that guarantees feature extraction algorithms can extract more features when using it than when use the original image. The improvement rate is           roughly 20% to 35% on average.
     The paper mainly discusses handcrafted feature points, but you can use this optimizing method for ML or DL algorithms as well (Why? because **features** are **features** :))
     \
     Good Luck!
