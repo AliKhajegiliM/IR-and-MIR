@@ -15,12 +15,12 @@ The IEEE Xplore webpage: https://ieeexplore.ieee.org/document/9163458
 A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Counting Image Features and Their Matches," 2020 Iran Workshop on Communication and Information Theory (IWCIT), Tehran, Iran, 2020, pp. 1-6, doi: 10.1109/IWCIT50667.2020.9163458.
 \
 \
-###Details:<h3> tag
+<h3>Details:
 \
 \
-######>> image joint histogram or 2D histogram: imhist2D.m<h6> tag
+>><h6> image joint histogram or 2D histogram: imhist2D.m
     \
-    The joint histogram of two given images can be easily computed through **h_ij=imhist2D(X1,X2)**, where X1 is the first frame and X2 is the second frame.
+    <h8>The joint histogram of two given images can be easily computed through **h_ij=imhist2D(X1,X2)**, where X1 is the first frame and X2 is the second frame.
 \
 \
 \>> IR: image local feature points count: ir.m
