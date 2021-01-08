@@ -39,9 +39,9 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
 
 - Contiguous intensity merging for 2D histogram: bincom2D.m
     \
-    This function is the 2D version of *bincom.m*. It get the 2D histogram (*h_ij*) and feature distance(*d*) as its inputs and returns the thresholded 2D histogram(*out_2Dhist)     **out_2Dhist=bincom2D(h_ij,d)**.
+    This function is the 2D version of *bincom.m*. It gets the 2D histogram (*h_ij*) and feature distance(*d*) as its inputs and returns the thresholded 2D histogram(*out_2Dhist*) through **out_2Dhist=bincom2D(h_ij,d)**.
 - Image entropy and image mutual information: ShEntropy.m & mutualInf.m
 
     
-## The Interesting Part!: :upside_down_face:
-    The IR-based Optimization method: Koptimizer.m
+## The Interesting Part! :upside_down_face:
+   The IR-based Optimization method: Koptimizer.m
