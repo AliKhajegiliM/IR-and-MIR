@@ -43,7 +43,7 @@ A. K. Mirabadi and S. Rini, "The Information & Mutual Information Ratio for Coun
 - Image entropy and image mutual information, ShEntropy.m & mutualInf.m
 
     
-## The Interesting Part! :upside_down_face:
+## The Interesting Part!
    The IR-based Optimization method, Koptimizer.m
    \
     The number of extracted feature points from an image can be boosted by this algorithm (How? I invite you to read the paper). The function **Koptimizer** gets an image and a     feature distance (usually a number ranging within 6 to 9, **d=8** is preferred). Thus, let image **X** and call **K_o=Koptimizer(X,d)**, and then you will have a coefficient     **K_o** which should be multiplied by the image (**X**): **Y=K_o * X**.
