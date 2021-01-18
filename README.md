@@ -1,5 +1,5 @@
 # IR and MIR: :computer:
-**The Information &amp; Mutual Information Ratio for Counting Image Local Features and Their Matches**
+**The Information &amp; Mutual Information Ratio for Counting Image Features and Their Matches**
 \
 Presented at the 8th Iran Workshop on Communication and Information Theory(May 2020), Sharif University of Technology, Tehran, Iran.
 \
